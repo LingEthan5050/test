@@ -22,28 +22,7 @@ int main()
     char sign;
     cin >> total;
     
-    while (cin >> sign >> num)
-    {
-        if (sign == '^')
-        { 
-            total = num * num;
-        }
-    }
-    {
-        if (sign == '+')
-        { 
-            total += num; 
-        }
-    }
-    {
-        else if (sign == '-')
-        {
-            total -= num;
-        }
-    }
-    {
-        else if (sign == ';')
-        {
+    while (cin >> sign >> n
             cout << total << endl;
         }
     }
